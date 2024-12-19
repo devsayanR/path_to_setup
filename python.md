@@ -5,18 +5,26 @@ This guide provides a step-by-step process for creating, using, and closing a Py
 ## Prerequisites
 - Ensure Python is installed on your system.
 - Verify Python installation by running:
-
+#### On Windows:
 ```bash
 python --version
+```
+#### On macOS/Linux:
+```bash
+python3 --version
 ```
 
 ## Steps to Create and Use a Virtual Environment
 
 ### 1. Create a Virtual Environment
 To create a virtual environment, use the following command:
-
+#### On Windows:
 ```bash
 python -m venv myenv
+```
+#### On macOS/Linux:
+```bash
+python3 -m venv myenv
 ```
 
 
